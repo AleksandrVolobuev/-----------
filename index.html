@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>W3.CSS Template</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--<link rel="stylesheet" href="./assets/css/w3.css">-->
+    <link rel="stylesheet" href="./assets/css/css?family=Montserrat.css" />
+    <link rel="stylesheet" href="./assets/css/stile.css" />
+    <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <main>
+      <!--секции контейнера основных-->
+      <section class="container">
+        <!--секция фото девушки статической-->
+        <div class="container-woman">
+          <aside class="Photo-of-the-girl"></aside>
+        </div>
+        <!--секция для основного контента-->
+        <aside class="basic-content">
+          <div class="container">
+            <div class="container-button">
+              <span
+                class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black"
+                ><i class="fa fa-bars"></i
+              ></span>
+            </div>
+          </div>
+          <!--выезжающий блок черный-->
+          <nav class="the-departing-column" id="">
+            <div class="flex-black-square">
+              <a href="#" class="" onclick="closeNav()">Home</a>
+              <a href="#portfolio" class="" onclick="closeNav()">Portfolio</a>
+              <a href="#about" class="" onclick="closeNav()">About</a>
+              <a href="#contact" class="" onclick="closeNav()">Contact</a>
+            </div>
+          </nav>
+          <!--конец выезжающий блок черный---->
+          <!-- Header -->
+          <header class="header-flex" id="">
+            <h1 class="h1-text padding-10">Jane Doe</h1>
+            <p class="padding-10">Photographer and Web Designer.</p>
+
+            <button
+              class="w3-button w3-light-grey w3-padding-large w3-margin-top"
+            >
+              <i class="fa fa-download"></i> Download Resume
+            </button>
+          </header>
+          <!----конец -- Header -->
+          <!--фото секции-->
+          <div class="w3-padding-32 w3-content" id="portfolio">
+            <h2 class="text-grey text-color">My Portfolio</h2>
+            <hr class="w3-opacity" />
+
+            <!--фото с гридами-->
+            <div class="">
+              <div class="photo-grid">
+                <img class="photo" src="./assets/img/wedding.jpg" />
+                <img class="photo" src="./assets/img/underwater.jpg" />
+                <img class="photo" src="./assets/img/rocks.jpg" />
+                <img class="photo" src="./assets/img/chef.jpg" />
+                <img class="photo" src="./assets/img/wedding.jpg" />
+                <img class="photo" src="./assets/img/sailboat.jpg" />
+                <img class="photo" src="./assets/img/p6.jpg" />
+              </div>
+            </div>
+            <!--конец фото с гридами-->
+          </div>
+          <!--конец фото секции-->
+          <!-- About секция -->
+          <div class="text-grey div-conteiner">
+            <h2 class="text-color text-About">About</h2>
+            <hr class="opacity" />
+            <p class="p-text">
+              Some text about me. Some text about me. I am lorem ipsum
+              consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+              labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis aute irure dolor in reprehenderit in voluptate
+              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+              occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est laborum consectetur adipiscing elit,
+              sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <br />
+            <!--начало графики-->
+            <h3 class="text-color text-grey">My Skills</h3>
+            <section class="flex-schedule font-15px text-letter">
+              <p class="text-grafiti-p text-color">Photography</p>
+              <div class="">
+                <div class="text-grafiti div-wraper-95">95%</div>
+              </div>
+              <p class="text-grafiti-p text-color">Web Design</p>
+              <div class="">
+                <div class="text-grafiti div-wraper-85">85%</div>
+              </div>
+              <p class="text-grafiti-p text-color">Photoshop</p>
+              <div class="">
+                <div class="text-grafiti div-wraper-80">80%</div>
+              </div>
+            </section>
+            <br />
+            <!--горизонтальные чистловые секции на флексах-->
+            <section class="flex-namber">
+              <div class="namber-blok">
+                <span class="text-24px">14+</span><br />
+                Partners
+              </div>
+              <div class="namber-blok">
+                <span class="text-24px">55+</span><br />
+                Projects Done
+              </div>
+              <div class="namber-blok">
+                <span class="text-24px">89+</span><br />
+                Happy Clients
+              </div>
+              <div class="namber-blok">
+                <span class="">150+</span><br />
+                Meetings
+              </div>
+            </section>
+            <!--конец горизонтальных числовых секций на флексах-->
+            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+              <i class="fa fa-download"></i> Download Resume
+            </button>
+            <!-- флекс репутации-->
+            <br />
+            <h3 class="">My Reputation</h3>
+            <br />
+            <section class="flex-Reputation">
+              <div class="">
+                <img
+                  src="./assets/img/avatar_smoke.jpg"
+                  alt="Avatar"
+                  class="round-photo"
+                />
+              </div>
+              <div class="text-15px">
+                <p>
+                  <span class="text-name">Chandler Bing.</span>
+                  Web Designer.
+                </p>
+                <p>Jane Doe is just awesome. I am so happy to have met her!</p>
+                <br />
+              </div>
+              <div class="">
+                <img
+                  src="./assets/img/bandmember.jpg"
+                  alt="Avatar"
+                  class="round-photo"
+                />
+              </div>
+              <div class="text-15px">
+                <p>
+                  <span class="text-name">Chris Fox.</span>
+                  CEO at Mighty Schools.
+                </p>
+                <p>Jane Doe saved us from a web disaster.</p>
+                <br />
+              </div>
+              <div class="">
+                <img
+                  src="./assets/img/avatar_g2.jpg"
+                  alt="Avatar"
+                  class="round-photo"
+                />
+              </div>
+              <div class="text-15px">
+                <p>
+                  <span class="text-name">Rebecca Flex.</span>
+                  CEO at Company.
+                </p>
+                <p>No one is better than Jane Doe.</p>
+                <br />
+              </div>
+            </section>
+            <br />
+            <!--конец флекс репутации---->
+
+            <!-- Grid for pricing tables -->
+            <h3 class="text-24px">My Price</h3>
+            <br />
+            <section class="grid-tables">
+              <div class="dark-grey-bloc flex-tables">Basic</div>
+              <div class="black-bloc flex-tables">Pro</div>
+              <div class="flex-tables">Web Design</div>
+              <div class="flex-tables">Web Design</div>
+              <div class="flex-tables">Photography</div>
+              <div class="flex-tables">Photography</div>
+              <div class="flex-tables">50GB Storage</div>
+              <div class="flex-tables">5GB Storage</div>
+              <div class="flex-tables">Mail Support</div>
+              <div class="flex-tables">Endless Support</div>
+              <div class="flex-tables">
+                <h2>$ 10</h2>
+                <p class="">per month</p>
+              </div>
+              <div class="flex-tables">
+                <h2>$ 25</h2>
+                <p class="">per month</p>
+              </div>
+
+              <div class="w3-light-grey w3-padding-24">
+                <button
+                  class="w3-button w3-white w3-padding-large w3-hover-black"
+                >
+                  Sign Up
+                </button>
+              </div>
+
+              <div class="w3-light-grey w3-padding-24">
+                <button
+                  class="w3-button w3-white w3-padding-large w3-hover-black"
+                >
+                  Sign Up
+                </button>
+              </div>
+              <!-- End  -->
+            </section>
+
+            <!-- End About Section -->
+          </div>
+
+          <!-- Contact Section -->
+          <div
+            class="w3-padding-32 w3-content w3-text-grey"
+            id="contact"
+            style="margin-bottom: 64px"
+          >
+            <h2>Contact Me</h2>
+            <hr class="w3-opacity" />
+
+            <div class="w3-section">
+              <p>
+                <i class="fa fa-map-marker fa-fw margin-right"></i>
+                Chicago, US
+              </p>
+              <p>
+                <i class="fa fa-phone fa-fw w3-xxlarge margin-right"></i>
+                Phone: +00 151515
+              </p>
+              <p>
+                <i class="fa fa-envelope fa-fw w3-xxlarge margin-right"> </i>
+                Email: mail@mail.com
+              </p>
+            </div>
+
+            <!-- Image of location/map -->
+            <img src="./assets/img/map.jpg" class="greyscale" />
+
+            <p>Lets get in touch. Send me a message:</p>
+            <form action="/action_page.php" target="_blank">
+              <p>
+                <input
+                  class="w3-input w3-padding-16 w3-border"
+                  type="text"
+                  placeholder="Name"
+                  required
+                  name="Name"
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-padding-16 w3-border"
+                  type="text"
+                  placeholder="Email"
+                  required
+                  name="Email"
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-padding-16 w3-border"
+                  type="text"
+                  placeholder="Subject"
+                  required
+                  name="Subject"
+                />
+              </p>
+              <p>
+                <input
+                  class="w3-input w3-padding-16 w3-border"
+                  type="text"
+                  placeholder="Message"
+                  required
+                  name="Message"
+                />
+              </p>
+              <p>
+                <button
+                  class="w3-button w3-light-grey w3-padding-large"
+                  type="submit"
+                >
+                  <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+              </p>
+            </form>
+            <!-- End Contact Section -->
+          </div>
+          <!-- Footer -->
+          <footer
+            class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge"
+            style="margin: -24px"
+          >
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <i class="fa fa-instagram w3-hover-opacity"></i>
+            <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+            <i class="fa fa-twitter w3-hover-opacity"></i>
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <p class="w3-medium">
+              Powered by
+              <a
+                href="https://www.w3schools.com/w3css/default.asp"
+                target="_blank"
+                class="w3-hover-text-green"
+                >w3.css</a
+              >
+            </p>
+            <!-- End footer -->
+          </footer>
+
+          <!-- END PAGE CONTENT -->
+        </aside>
+      </section>
+      <!--конец секций контейнера основных-->
+    </main>
+  </body>
+</html>
