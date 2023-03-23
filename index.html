@@ -4,7 +4,6 @@
     <title>W3.CSS Template</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!--<link rel="stylesheet" href="./assets/css/w3.css">-->
     <link rel="stylesheet" href="./assets/css/css?family=Montserrat.css" />
     <link rel="stylesheet" href="./assets/css/stile.css" />
     <link rel="stylesheet" href="./assets/css/font-awesome.min.css" />
@@ -18,27 +17,25 @@
           <aside class="Photo-of-the-girl"></aside>
         </div>
         <!--секция для основного контента-->
-        <aside class="basic-content">
-          <div class="container">
-            <div class="container-button">
-              <span
-                class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black"
-                ><i class="fa fa-bars"></i
-              ></span>
-            </div>
-          </div>
+        <aside class="basis-content">
           <!--выезжающий блок черный-->
-          <nav class="the-departing-column" id="">
+          <div class="container-button">
+            <span
+              class="w3-button w3-light-grey w3-margin-top w3-padding-large w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text"
+              ><i class="fa fa-bars"></i
+            ></span>
+          </div>
+          <nav class="the-departing-column">
             <div class="flex-black-square">
-              <a href="#" class="" onclick="closeNav()">Home</a>
-              <a href="#portfolio" class="" onclick="closeNav()">Portfolio</a>
-              <a href="#about" class="" onclick="closeNav()">About</a>
-              <a href="#contact" class="" onclick="closeNav()">Contact</a>
+              <p class="black-square padding-top">Home</p>
+              <p class="black-square">Portfolio</p>
+              <p class="black-square">About</p>
+              <p class="black-square">Contact</p>
             </div>
           </nav>
           <!--конец выезжающий блок черный---->
           <!-- Header -->
-          <header class="header-flex" id="">
+          <header class="header-flex" >
             <h1 class="h1-text padding-10">Jane Doe</h1>
             <p class="padding-10">Photographer and Web Designer.</p>
 
@@ -50,24 +47,21 @@
           </header>
           <!----конец -- Header -->
           <!--фото секции-->
-          <div class="w3-padding-32 w3-content" id="portfolio">
-            <h2 class="text-grey text-color">My Portfolio</h2>
-            <hr class="w3-opacity" />
-
-            <!--фото с гридами-->
-            <div class="">
-              <div class="photo-grid">
-                <img class="photo" src="./assets/img/wedding.jpg" />
-                <img class="photo" src="./assets/img/underwater.jpg" />
-                <img class="photo" src="./assets/img/rocks.jpg" />
-                <img class="photo" src="./assets/img/chef.jpg" />
-                <img class="photo" src="./assets/img/wedding.jpg" />
-                <img class="photo" src="./assets/img/sailboat.jpg" />
-                <img class="photo" src="./assets/img/p6.jpg" />
-              </div>
+          <h2 class="text-grey text-color">My Portfolio</h2>
+          <hr class="w3-opacity" />
+          <!--фото с гридами-->
+          <div class="">
+            <div class="photo-grid">
+              <img class="photo" src="./assets/img/wedding.jpg" />
+              <img class="photo" src="./assets/img/underwater.jpg" />
+              <img class="photo" src="./assets/img/rocks.jpg" />
+              <img class="photo" src="./assets/img/chef.jpg" />
+              <img class="photo" src="./assets/img/wedding.jpg" />
+              <img class="photo" src="./assets/img/sailboat.jpg" />
+              <img class="photo" src="./assets/img/p6.jpg" />
             </div>
-            <!--конец фото с гридами-->
           </div>
+          <!--конец фото с гридами-->
           <!--конец фото секции-->
           <!-- About секция -->
           <div class="text-grey div-conteiner">
@@ -88,7 +82,7 @@
             </p>
             <br />
             <!--начало графики-->
-            <h3 class="text-color text-grey">My Skills</h3>
+            <h3 class="text-color text-grey text-24px">My Skills</h3>
             <section class="flex-schedule font-15px text-letter">
               <p class="text-grafiti-p text-color">Photography</p>
               <div class="">
@@ -123,14 +117,17 @@
                 Meetings
               </div>
             </section>
-            <!--конец горизонтальных числовых секций на флексах-->
-            <button class="w3-button w3-light-grey w3-padding-large w3-section">
+            <button
+              class="w3-button w3-light-grey w3-padding-large w3-section text-button-15px"
+            >
               <i class="fa fa-download"></i> Download Resume
             </button>
+            <!--конец горизонтальных числовых секций на флексах-->
             <!-- флекс репутации-->
             <br />
             <h3 class="">My Reputation</h3>
             <br />
+            <!--круглые фото и текст-->
             <section class="flex-Reputation">
               <div class="">
                 <img
@@ -178,65 +175,66 @@
                 <br />
               </div>
             </section>
+            <!--конец круглые фото и текст-->
             <br />
             <!--конец флекс репутации---->
 
             <!-- Grid for pricing tables -->
             <h3 class="text-24px">My Price</h3>
             <br />
-            <section class="grid-tables">
-              <div class="dark-grey-bloc flex-tables">Basic</div>
-              <div class="black-bloc flex-tables">Pro</div>
-              <div class="flex-tables">Web Design</div>
-              <div class="flex-tables">Web Design</div>
-              <div class="flex-tables">Photography</div>
-              <div class="flex-tables">Photography</div>
-              <div class="flex-tables">50GB Storage</div>
-              <div class="flex-tables">5GB Storage</div>
-              <div class="flex-tables">Mail Support</div>
-              <div class="flex-tables">Endless Support</div>
-              <div class="flex-tables">
-                <h2>$ 10</h2>
-                <p class="">per month</p>
-              </div>
-              <div class="flex-tables">
-                <h2>$ 25</h2>
-                <p class="">per month</p>
-              </div>
-
-              <div class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Sign Up
-                </button>
-              </div>
-
-              <div class="w3-light-grey w3-padding-24">
-                <button
-                  class="w3-button w3-white w3-padding-large w3-hover-black"
-                >
-                  Sign Up
-                </button>
-              </div>
+            <!--флекс таблица серо-черная-->
+            <section class="flex-tables-basic">
+              <section class="section-flex-tables">
+                <div class="dark-grey-bloc ">Basic</div>
+                <div class="flex-tables text-button-15px">Web Design</div>
+                <div class="flex-tables text-button-15px">Photography</div>
+                <div class="flex-tables text-button-15px">50GB Storage</div>
+                <div class="flex-tables text-button-15px">Mail Support</div>
+                <div class="flex-tables">
+                  <h2>$ 10</h2>
+                  <p class="text-button-15px">per month</p>
+                </div>
+                <div class="flex-tables text-button-15px">
+                  <button class="w3-button w3-white w3-padding-large hover-black">
+                    Sign Up
+                  </button>
+                </div>
+              </section>
+              <section class="section-flex-tables">
+                <div class="black-bloc ">Pro</div>
+                <div class="flex-tables text-button-15px">Web Design</div>
+                <div class="flex-tables text-button-15px">Photography</div>
+                <div class="flex-tables text-button-15px">5GB Storage</div>
+                <div class="flex-tables text-button-15px">Endless Support</div>
+                <div class="flex-tables">
+                  <h2>$ 25</h2>
+                  <p class="text-button-15px">per month</p>
+                </div>
+                <div class="flex-tables text-button-15px">
+                  <button class="w3-button w3-white w3-padding-large hover-black">
+                    Sign Up
+                  </button>
+                </div>
+              </section>
+              <br />
               <!-- End  -->
             </section>
-
+            <!--конец грид таблица-->
             <!-- End About Section -->
           </div>
 
           <!-- Contact Section -->
           <div
             class="w3-padding-32 w3-content w3-text-grey"
-            id="contact"
             style="margin-bottom: 64px"
           >
-            <h2>Contact Me</h2>
+            <hr class="w3-opacity" />
+            <h2 class="w3-padding-16">Contact Me</h2>
             <hr class="w3-opacity" />
 
             <div class="w3-section">
               <p>
-                <i class="fa fa-map-marker fa-fw margin-right"></i>
+                <i class="fa fa-map-marker fa-fw margin-right font-size-fa"></i>
                 Chicago, US
               </p>
               <p>
@@ -251,9 +249,8 @@
 
             <!-- Image of location/map -->
             <img src="./assets/img/map.jpg" class="greyscale" />
-
             <p>Lets get in touch. Send me a message:</p>
-            <form action="/action_page.php" target="_blank">
+            <form target="_blank">
               <p>
                 <input
                   class="w3-input w3-padding-16 w3-border"
